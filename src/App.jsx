@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { personalData } from './components/personalData'
+import { personalData } from './components/data/personalData'
 
 
 function App() {
