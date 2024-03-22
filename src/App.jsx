@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { personalData } from './components/personalData'
 
 
 function App() {
@@ -6,8 +7,10 @@ function App() {
 
   return (
     <>
-    <div className='bg-black h-6' >
-
+    <div className='bg-black h-6 text-white' >
+{
+  personalData.name
+}
     </div>
     </>
   )
